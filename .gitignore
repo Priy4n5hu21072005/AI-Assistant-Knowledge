@@ -1,4 +1,37 @@
+# ──── Virtual Environment ────
 venv/
+env/
+.venv/
+
+# ──── Python Cache ────
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# ──── Environment Variables ────
 .env
+.env.local
+
+# ──── IDE / Editor ────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ──── OS Files ────
+.DS_Store
+Thumbs.db
+
+# ──── FAISS / Vector DB Artifacts ────
+*.faiss
+faiss_index/
+
+# ──── Distribution / Packaging ────
+dist/
+build/
+*.egg-info/
+
+# ──── Logs ────
+*.log
